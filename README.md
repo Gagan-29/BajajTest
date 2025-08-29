@@ -29,4 +29,12 @@ It accepts an array in the request body and returns details such as even/odd num
 ---
 
 ## 📌 Endpoint
-Base URL:
+Base URL:https://bajajtest-s5wv.onrender.com/bfhl
+
+### POST `/bfhl`
+**Request Body:**
+```json
+{
+  "data": ["a","1","334","4","R","$"]
+}
+
