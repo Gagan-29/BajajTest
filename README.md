@@ -29,7 +29,7 @@ It accepts an array in the request body and returns details such as even/odd num
 ---
 
 ## 📌 Endpoint
-Base URL:https://bajajtest-s5wv.onrender.com/bfhl
+Base URL:https://bajajtest-s5wv.onrender.com
 
 ### POST `/bfhl`
 **Request Body:**
@@ -38,3 +38,16 @@ Base URL:https://bajajtest-s5wv.onrender.com/bfhl
   "data": ["a","1","334","4","R","$"]
 }
 
+Response:
+{
+  "is_success": true,
+  "user_id": "john_doe_17091999",
+  "email": "john@xyz.com",
+  "roll_number": "ABCD123",
+  "odd_numbers": ["1"],
+  "even_numbers": ["334","4"],
+  "alphabets": ["A","R"],
+  "special_characters": ["$"],
+  "sum": "339",
+  "concat_string": "Ra"
+}
